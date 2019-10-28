@@ -1,0 +1,66 @@
+html{
+    scroll-behavior: smooth;
+    transition-delay: 800ms; ;
+}
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin-left:8.5%;
+    margin-right:8.5%;
+    background-color: rgba(252, 250, 250, 0.911);
+}
+.head p{
+    display: inline;
+    color: brown;
+    font-weight: bold;
+    padding-top: 15px ;
+}
+.head img{
+    float: left;
+}
+.nav_bar-fixed{
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+.head{
+    margin-top: 2%;
+
+}
+.head ul{
+    margin:0;
+    padding:0;
+}
+.head li{
+    display: inline;
+    padding:0 20px 0 20px;
+
+}
+.head nav{
+    float:right;
+    margin-right:5%;
+    cursor: pointer;
+}
+.head li:hover{
+    border-bottom: 2px solid chocolate;
+    cursor:pointer;
+}
+
+.categories{    
+    margin-top: 3%;
+    text-align: center;
+    background-color: rgb(0, 102, 255);
+    border-radius: 20px;
+}
+.categories p{
+    display: inline;
+    padding:0 20px 0 20px;
+    
+}
+.categories p:hover{
+    border-bottom: 2px solid chocolate;
+    cursor:pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
